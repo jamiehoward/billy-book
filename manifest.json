@@ -1,0 +1,12 @@
+{
+	"manifest_version":2,
+	"name": "BillyBook",
+	"version": "0.1",
+	"description": "Noooo, don't remove my face.",
+	"content_scripts": [
+	    {
+	    "matches": ["*://facebook.com/*", "https://www.facebook.com/", "https://www.facebook.com/*"],
+	    "js": ["jquery.js","livequery.js", "background.js"]
+	    }
+	]
+}
